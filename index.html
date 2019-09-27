@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Stephanie Mach</title>
+       <link rel="stylesheet" type="text/css" href="<link href="./dist/css/main.css" type="text/css" rel="stylesheet">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+    <body>
+        <header>
+            <span class="logo">My WebSite</span>
+            <a id="toggleMenu">Menu<a></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <p>
+                <img 
+                    class="avatar"
+                    src="https://www.gravatar.com/avatar/4678a33bf44c38e54a58745033b4d5c6?d=mm&s=64" 
+                    alt="Stephanie Mach">
+        
+                After five decades in Hollywood I've decided to transition into web 
+                and mobile development.
+            </p>
+        </main>
+
+        <script>
+            var toggleMenu = document.getElementById('toggleMenu');
+            var nav = document.querySelector('nav');
+            toggleMenu.addEventListener(
+                'click',
+                function(){
+                if(nav.style.display=='block'){
+                    nav.style.display='none';
+                }else{
+                    nav.style.display='block';
+                }
+                }
+            );
+        </script>
+        
+    </body>
+</html>
