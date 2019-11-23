@@ -49,6 +49,13 @@
   border: 1px solid #990000;
   background: #fff; }
 
+  /* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
 /* universal settings */
 * {
   box-sizing: border-box; }
