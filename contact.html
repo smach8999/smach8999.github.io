@@ -13,6 +13,8 @@
     <body>
       <main>
       <header>
+          <span class="logo">My Contact</span>
+          <a id="toggleMenu">Menu<a>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -62,6 +64,21 @@
             <input type="hidden" name="_next" value="//smach8999.github.io/thanks.html">
         </form>
       </main>
+
+      <script>
+          var toggleMenu = document.getElementById('toggleMenu');
+          var nav = document.querySelector('nav');
+          toggleMenu.addEventListener(
+            'click',
+            function(){
+              if(nav.style.display=='block'){
+                nav.style.display='none';
+              }else{
+                nav.style.display='block';
+              }
+            }
+          );
+  </script>
 
     </body>
 </html>
