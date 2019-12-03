@@ -93,7 +93,7 @@ nav ul li a:link,
 nav ul li a:visited {
   display: inline-block;
   padding: 0 .5rem;
-  color: #fff;
+  color: rgb(255, 255, 255);
   line-height: 50px;
   text-decoration: none; }
 
@@ -453,5 +453,10 @@ section:last-child {
   z-index: 1;
 }
 
+.dropdown-content a:hover {background-color: rgb(88, 6, 6);}
+
+.dropdown:hover .dropdown-content {display: block; background: #2e64b6;}
+
+.dropdown:hover .dropbtn {background-color: #2e64b6;}
 
 /*# sourceMappingURL=main.css.map */
