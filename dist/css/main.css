@@ -279,10 +279,10 @@ section:last-child {
   #headshot {
     display: none; }
 
-  #name,
-  #contactDetails {
-    float: none;
-    width: 100%;
+  #name,main
+  #contactDetails {main
+    float: none;main
+    width: 100%;main
     text-align: center; }
 
   .sectionTitle,
@@ -327,7 +327,7 @@ section:last-child {
 
   header {
     position: relative; }
-
+    main
   nav {
     position: absolute;
     display: none;
@@ -350,7 +350,7 @@ section:last-child {
   100% {
     opacity: 0; } }
 @-webkit-keyframes fade-in {
-  0% {
+  0% {main
     opacity: 0; }
   40% {
     opacity: 0; }
@@ -375,10 +375,10 @@ section:last-child {
     opacity: 0; } }
 @keyframes fade-in {
   0% {
-    opacity: 0; }
-  40% {
-    opacity: 0; }
-  100% {
+    opacity: 0; }main
+  40% {main
+    opacity: 0; }main
+  100% {main
     opacity: 1; } }
 .instaFade {
   -webkit-animation-name: reset, fade-in;
@@ -405,7 +405,7 @@ section:last-child {
 .delayOne {
   -webkit-animation-delay: 0, .5s;
   -moz-animation-delay: 0, .5s;
-  animation-delay: 0, .5s; }
+  animation-delay: 0, .5s; }main
 
 .delayTwo {
   -webkit-animation-delay: 0, 1s;
@@ -458,5 +458,9 @@ section:last-child {
 .dropdown:hover .dropdown-content {display: block; background: #2e64b6;}
 
 .dropdown:hover .dropbtn {background-color: #2e64b6;}
+
+label {display:block; text-align: left;}
+
+#email {display:block; float:none}
 
 /*# sourceMappingURL=main.css.map */
